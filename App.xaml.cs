@@ -1,6 +1,5 @@
-﻿using System.Configuration;
-using System.Data;
-using System.Windows;
+﻿using System.Windows;
+using TODO_app.Views;
 
 namespace TODO_app
 {
@@ -9,6 +8,13 @@ namespace TODO_app
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+
+            LoginWindow login = new LoginWindow();
+            login.Show();
+        }
     }
 
 }

@@ -12,7 +12,13 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="ViewModels\" />
-    <Folder Include="Views\" />
+	<Folder Include="Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Views\LoginWindow.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
   </ItemGroup>
 
 </Project>
