@@ -10,18 +10,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Views\password.png" />
-    <None Remove="Views\user.png" />
+    <None Remove="Images\password.png" />
+    <None Remove="Images\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\password.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\user.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="ViewModels\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Views\password.png" />
-    <Resource Include="Views\user.png" />
   </ItemGroup>
 
   <ItemGroup>

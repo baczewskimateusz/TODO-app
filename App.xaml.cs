@@ -14,6 +14,9 @@ namespace TODO_app
 
             LoginWindow login = new LoginWindow();
             login.Show();
+
+            RegisterWindow registerWindow = new RegisterWindow();
+            registerWindow.Show();
         }
     }
 
